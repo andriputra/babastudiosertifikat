@@ -1,0 +1,188 @@
+body{
+    position: relative;
+    margin: 0px;
+    background-color: #58595b;
+}
+p{
+    /* margin: 0px; */
+}
+.certificate{
+    background-image: url('../img/bgSertifikat.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 724px;
+    width: 1024px;
+    margin: auto;
+}
+.certificate_back{
+    background-image: url('../img/bgSertifikatback.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 724px;
+    width: 1024px;
+    margin: auto;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.container{
+    width: 67%;
+    margin-left: 25%;
+    padding-top: 4%;    
+}
+.logo{
+    text-align: right;
+    margin-bottom: 20px;
+}
+.logo .img-logo{
+    display: inline-block;
+    width: 200px;
+}
+.head{
+    text-align: center;
+}
+.head h1{
+    font-size: 56px;
+    line-height: 56px;
+    color: #093f62;
+}
+.head h3{
+    font-family: 'Open Sans', sans-serif;
+    color: #58595b;
+    font-size: 34px;
+    line-height: 38px;
+}
+.head p{
+    font-family: 'Charm', cursive;
+    font-size: 22px;
+    line-height: 22px;
+}
+.divider{
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #292627;
+    margin: 0 auto;
+}
+.subhead .divider{
+    width: 73%;
+}
+.entrytext{
+    text-align: center;
+}
+.entrytext p{
+    font-family: 'Courgette', cursive;
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+.subheadtext{
+    text-align: center;
+    margin-top: 25px;
+}
+.grade{
+    position: relative;
+    display: inline;
+}
+.subheadtext span{
+    font-family: 'Charm', cursive;
+    font-size: 22px;
+    line-height: 22px;
+}
+.subheadtext span.dividershort{
+    display: inline-block;
+    border-bottom: 2px solid #292627;
+    width: 10%;
+}
+.grade .gradecode{
+    border-bottom: 2px solid #292627;
+    position: absolute;
+    width: 70px;
+    font-family: 'Courgette', cursive;
+    font-size: 24px;
+}
+.contentbox{
+    margin-top: 40px;
+    display: flex;
+}
+.contentbox .contentbox_half.one{
+    width: 46%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.contentbox .contentbox_half.two{
+    width: 46%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.box_field{
+    margin-bottom: 8px;
+}
+.box_field .box_field_title p{
+    margin: 0px 0px 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+.box_field_content .entrytext{
+    text-align: left;   
+}
+.box_field_content .entrytext p{
+    margin-top: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+.signature{
+    display: inline-block;
+    float: right;
+    text-align: center;
+}
+.signature_title p{
+    margin: 10px 0px 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+.signature_class{
+    position: relative;
+    height: 55px;
+}
+.signature_class img{
+    height: 130px;
+    position: absolute;
+    top: -36px;
+    left: 12%;
+}
+.signature_owner p{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.signature_owner p.owner{
+    font-weight: bold;
+}
+
+.certificate_back .container{
+    width: 58%;
+    margin: auto;
+    padding: 20.6% 0px;
+}
+.certificate_back .box_content h3{
+    color: #093f62;
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.table-pre table{
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+.table-pre table td{
+    border: 2px solid #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding: 10px 40px;
+}
+.table-pre table td:nth-child(odd){
+    text-align: center;
+}
