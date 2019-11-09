@@ -7,7 +7,7 @@ p{
     /* margin: 0px; */
 }
 .certificate{
-    background-image: url('../img/bgSertifikat.png');
+    /* background-image: url('../img/bgSertifikat.png'); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -16,7 +16,7 @@ p{
     margin: auto;
 }
 .certificate_back{
-    background-image: url('../img/bgSertifikatback.png');
+    /* background-image: url('../img/bgSertifikatback.png'); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -185,4 +185,90 @@ h1, h2, h3, h4, h5, h6{
 }
 .table-pre table td:nth-child(odd){
     text-align: center;
+}
+
+.shape-container{
+    position: absolute;
+    z-index: -1;
+    width: 1024px;
+    background-color: #ffffff;
+    height: 724px;
+}
+  
+.shape-navy{
+    position:absolute;
+    top:0;
+    left:0;
+        width: 100%;
+        height: 100%;
+    background-color: #144e8c;
+    -webkit-clip-path: polygon(0 0%, 14% 0, 21% 49%, 0% 100%);
+    clip-path: polygon(0 0%, 14% 0, 21% 49%, 0% 100%);
+    z-index: 1;
+}
+  
+.shape-blue{
+    position:absolute;
+    left:0;
+    bottom:0;
+    width: 100%;
+        height: 100%;
+    background-color: #1072ba;
+    -webkit-clip-path: polygon(6% 0%, 18% 0%, 31% 50%, 31% 50%);
+    clip-path: polygon(6% 0%, 18% 0%, 31% 50%, 31% 50%);
+    z-index: 2;
+}
+.shape-orange{
+    position:absolute;
+    left:0;
+    bottom:0;
+    width: 100%;
+        height: 100%;
+    background-color: #f8971c;
+    -webkit-clip-path: polygon(31% 50%, 17% 19%, 5% 0%, 0% 100%);
+    clip-path: polygon(31% 50%, 17% 19%, 5% 0%, 0% 100%);
+}
+.shape-darkgray{
+    position:absolute;
+    left:0;
+    bottom:0;
+    width: 100%;
+        height: 100%;
+    background-color: #e7e8e9;
+    -webkit-clip-path: polygon(0% 100%, -1% 0%, 22% 0%, 62% 100%);
+    clip-path: polygon(0% 100%, -1% 0%, 22% 0%, 62% 100%);
+    z-index: -3;
+}
+.shape-gray{
+    position:absolute;
+    left:0;
+    bottom:0;
+    width: 100%;
+        height: 100%;
+    background-color: #f1f1f2;
+    -webkit-clip-path: polygon(0% 100%, 12% 0%, 42% 0%, 92% 100%);
+    clip-path: polygon(0% 100%, 12% 0%, 42% 0%, 92% 100%);
+    z-index: -4;
+}
+.shape-navyblue{
+    position:absolute;
+    right:0;
+    bottom:0;
+    width: 100%;
+        height: 100%;
+    background-color: #083f61;
+    -webkit-clip-path: polygon(100% 30%, 94% 62%, 96% 100%, 100% 100%);
+    clip-path: polygon(100% 30%, 94% 62%, 96% 100%, 100% 100%);
+    z-index: -1;
+}
+.shape-blueright{
+    position:absolute;
+    right:0;
+    bottom:0;
+    width: 100%;
+        height: 100%;
+    background-color: #1072ba;
+    -webkit-clip-path: polygon(100% 100%, 90% 68%, 95% 100%, 100% 100%);
+    clip-path: polygon(100% 100%, 90% 68%, 95% 100%, 100% 100%);
+    z-index: 1;
 }
